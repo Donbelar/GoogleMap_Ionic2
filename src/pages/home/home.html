@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Google Map
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content [ngClass]="{'no-scroll': mapRendered}">
+  <div id="map">
+    <button ion-button color="dark" (click)="getMyLocation()">PICKME UP</button>
+  </div>
+</ion-content>
